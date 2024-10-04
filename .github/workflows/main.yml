@@ -15,5 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: 149.255.62.173
-        username: admin_australianwhiskyauctions
+        username: admin_australianwhiskyauctions@australianwhiskyauctions.gprlive.com
         password:  VM66vqo;x(9m
