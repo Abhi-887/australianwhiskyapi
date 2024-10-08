@@ -24,4 +24,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+Route::get('product', [RazorpayController::class, 'index']);
+Route::post('razorpay-payment', [RazorpayController::class, 'store'])->name('razorpay.payment.store');
+require __DIR__ . '/auth.php';
