@@ -54,36 +54,7 @@
         </a>
       </li>
 
-      {{-- <li class="nav-item">
-        <a class="nav-link " href="{{ route('about.index')}}">
-            <i class="bi bi-menu-button-wide"></i>
-          <span>About section</span>
-        </a>
-      </li> --}}
 
-{{--
-      <li class="dropdown {{ setSidebarActive([
-        'admin.blog-category.*',
-        'admin.blogs.*',
-        'admin.blogs.comments.index'
-    ]) }}">
-        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-rss"></i>
-            <span> Blog </span></a>
-        <ul class="dropdown-menu">
-            <li class="{{ setSidebarActive(['admin.blog-category.*']) }}" ><a class="nav-link" href="{{ route('admin.blog-category.index') }}">Categories</a></li>
-            <li class="{{ setSidebarActive(['admin.blogs.*']) }}" ><a class="nav-link" href="{{ route('admin.blogs.index') }}">All Blogs</a></li>
-            <li class="{{ setSidebarActive(['admin.blogs.comments.index']) }}" ><a class="nav-link" href="{{ route('admin.blogs.comments.index') }}">Comments</a></li>
-            </li>
-        </ul>
-    </li> --}}
-
-
-      {{-- <li class="nav-item">
-        <a class="nav-link" href="{{ route('menu-builder.index')}}" >
-            <i class="bi bi-menu-button-wide"></i>
-          <span>menu-builder</span>
-        </a>
-      </li> --}}
 
       <li class="nav-item">
         <a class="nav-link" href="{{ route('contact-admin.index')}}" >
@@ -95,7 +66,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Sections</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-menu-button-wide"></i><span>Sectionss</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
